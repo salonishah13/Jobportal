@@ -71,7 +71,7 @@ h1 {
 header {
     width: 100%;
     height: 80vh;
-    background-image: url("images/white-job-search-vector-icon-on-black-background-modern-flat-job-search-from-human-resources-concept-vector-sign-symbol-can-be-use-for-web-mobile-and-logo-700-172246596.jpg");
+    background-image: url("https://appinventiv.com/wp-content/uploads/sites/1/2023/04/cost-to-build-a-job-portal-like-Glassdoor.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,4 +91,116 @@ header {
 
 .header-title > span {
     color: var(--primaryColor);
+}
+
+.join{
+    width: 100%;
+    height: 350px;
+    background: url("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8am9iJTIwcG9ydGFsfGVufDB8fDB8fHww");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--whiteColor);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    position: relative;
+}
+
+.join::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 85, 177, 0.6) 0%, rgba(0, 122, 255, 0.5) 100%),
+    linear-gradient(180deg, rgba(0, 122, 255, 0.65) 0%, transparent 100%);
+    z-index: 1;
+}
+
+.join-detail {
+    min-width: 280px;
+    width: 50%;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+
+.join-detail > h1 {
+    font-size: 36px;
+    letter-spacing: 2;
+}
+
+.join-button {
+    width: 200px;
+    padding: 1rem;
+    border: none;
+    color: var(--blackColor);
+    background-color: var(--yellowColor);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background: transparent;
+    border: 2px solid var(--yellowColor);
+    color: var(--yellowColor);
+}
+
+.featured {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: var(--greyColor);
+}
+
+.section-title {
+    margin-bottom: 0.5rem;
+    letter-spacing: 1.5;
+    font-size: 36px;
+}
+
+.featured-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    padding: 2% 10%;
+}
+
+.featured-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--whiteColor);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.featured-card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.featured-image {
+    height: 30px;
+    margin-bottom: 0.2rem;
+}
+
+.featured-button {
+    border: 1px solid var(--primaryColor);
+    background-color: transparent;
+    margin-top: 0.5rem;
+    padding: 3px 10px;
+    cursor: pointer;
+    color: var(--primaryColor);
+}
+
+.featured-button:hover {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
 }
