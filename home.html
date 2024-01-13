@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Job Portal Website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">JOBforU</a></h2>
+        <div class="navbar-menu">
+            <a href="search.html">Search</a>
+            <a href="#companies">Companies</a>
+            <a href="testimonial.html">Testimonial</a>
+            
+            <a href="login.html">Log In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span>PERFECT JOB</span> <br> EASILY
+        </h1>
+    </header>
+    <div class="search-wrapper">
+      <div class="search-box">
+          <div class="search-card">
+              <input class="search-input" type="text" placeholder="Job title or keywords">
+              <button class="search-button"> <a href="#joblist">search</a></button>
+          </div>
+      </div>
+ </div>
+ <!--search end-->
+
+ <!-- Filter box -->
+ <div class="filter-box">
+  <div class="filter-dropdown">
+      <select class="filter-select" name="job-level" id="job-level">
+          <option value="" disabled selected>Job Level</option>
+          <option value="entry">Entry Level</option>
+          <option value="mid-senior">Mid-Level</option>
+          <option value="education">Senior Level / Mid-Senior</option>
+          <option value="director">Director Level</option>
+          <option value="education">Executive Level / C-Level</option>           
+      </select>
+      <select class="filter-select" name="job-function" id="job-function">
+          <option value="" disabled selected>Job Function</option>
+          <option value="it">Information Technology (IT)</option>
+          <option value="management">Management</option>
+          <option value="education">Education</option>
+          <option value="education">Health</option>
+          <option value="education">Marketing</option>
+      </select>
+      <select class="filter-select" name="employment" id="employment">
+          <option value="" disabled selected>Employment Type</option>
+          <option value="internship">Internship</option>
+          <option value="part-time">Part-Time</option>
+          <option value="full-time">Full-Time</option>
+          <option value="education">Freelance</option>
+          <option value="education">Temporary</option>
+      </select>
+      <select class="filter-select" name="location" id="location">
+          <option value="" disabled selected>Location</option>
+          <option value="india">India</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="education">Canada</option>
+          <option value="education">Australia</option>
+      </select>
+      <select class="filter-select" name="education" id="education">
+          <option value="" disabled selected>Education Level</option>
+          <option value="high-school">High School</option>
+          <option value="bachelors">Bachelor's Degree</option>
+          <option value="masters">Master's Degree</option>
+          <option value="education">Diploma</option>
+          <option value="education">Doctorate/Ph.D.</option>
+      </select>
+  </div>
+</div>
+
+<div>
+  <section class="job-list" id="jobs">
+      <div class="job-card">
+          <div class="job-name">
+              <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/tesla.svg">
+              <div class="job detail">
+                  <h4>Tesla</h4>
+                  <h3>Mechanical Engineer</h3>
+                  <p>Tesla Mechanical Engineer job in Texas</p>
+              </div>
+          </div>
+          <div class="job-label">
+              <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+              <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+              Posted 2 mins ago
+          </div>
+      </div>
+
+      <div class="job-card">
+          <div class="job-name">
+              <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/ebay.svg">
+              <div class="job detail">
+                  <h4>Ebay</h4>
+                  <h3>Business Development</h3>
+                  <p>Tesla Mechanical Engineer job in Texas</p>
+              </div>
+          </div>
+          <div class="job-label">
+              <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+              <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+              Posted 2 mins ago
+          </div>
+      </div>
+
+      <div class="job-card">
+          <div class="job-name">
+              <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/tiktok.svg">
+              <div class="job detail">
+                  <h4>Tiktok</h4>
+                  <h3>Digital Marketing</h3>
+                  <p>Tesla Mechanical Engineer job in Texas</p>
+              </div>
+          </div>
+          <div class="job-label">
+              <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+              <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+              Posted 2 mins ago
+          </div>
+      </div>
+
+      <div class="job-card">
+          <div class="job-name">
+              <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/youtube.svg">
+              <div class="job detail">
+                  <h4>Youtube</h4>
+                  <h3>UI UX Designer</h3>
+                  <p>Tesla Mechanical Engineer job in Texas</p>
+              </div>
+          </div>
+          <div class="job-label">
+              <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+              <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+              Posted 2 mins ago
+          </div>
+      </div>
+
+      <div class="job-card">
+          <div class="job-name">
+              <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/amazon.svg">
+              <div class="job detail">
+                  <h4>Amazon</h4>
+                  <h3>Software Engineer</h3>
+                  <p>Tesla Mechanical Engineer job in Texas</p>
+              </div>
+          </div>
+          <div class="job-label">
+              <a class="label-a" href="#">HTML</a>
+              <a class="label-b" href="#">CSS</a>
+              <a class="label-c" href="#">Javascript</a>
+          </div>
+          <div class="job-posted">
+              Posted 2 mins ago
+          </div>
+      </div>
+  </section>
+  <button class="job-more">More List</button>
+</div>
+ 
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">LETS START YOUR NEW JOB WITH US</h1>
+            <p>Embark on a new and exciting career journey with us! Join our dynamic team and discover opportunities for growth, learning, and success. We foster a collaborative and inclusive work environment where your skills are valued, and innovation thrives. Let's start your new job with us, where every day brings new challenges and opportunities for professional development.</p>
+        </div>
+        <button class="join-button">JOIN NOW</button>
+    </section>
+
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        <p>Explore top-tier companies with our featured partners. From industry leaders to innovative startups, discover exceptional opportunities and collaboration possibilities with our curated selection of prominent organizations.</p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/2560px-EBay_logo.svg.png">
+                <p>ebay</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://www.svgrepo.com/show/13671/youtube.svg">
+                <p>YouTube</p>
+                <button class="featured-button">View 1 job</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/1280px-TikTok_logo.svg.png">
+                <p>TikTok</p>
+                <button class="featured-button">View 3 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://download.logo.wine/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Logo.wine.png">
+                <p>Tesla</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png">
+                <p>Google</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/apple-icon.png">
+                <p>Apple</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png?20220213013322">
+                <p>Amazon</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg">
+                <p>Facebook</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

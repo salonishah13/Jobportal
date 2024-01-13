@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=IBM+Plex+Serif:ital@1&family=Luxurious+Script&family=Meow+Script&family=Noto+Serif&family=Nunito&family=Playfair+Display:ital@0;1&family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Jobportal</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">JOBforU</a></h2>
+        <div class="navbar-menu">
+            <a href="search.html">Search</a>
+            <a href="#companies">Companies</a>
+            <a href="testimonial.html">Testimonial</a>
+            <a href="#blogs">Blogs</a>
+            <a href="login.html">Log In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <br><br><br>
+    <!--search-->
+   <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job title or keywords">
+                <button class="search-button"> <a href="#joblist">search</a></button>
+            </div>
+        </div>
+   </div>
+   <!--search end-->
+
+   <!-- Filter box -->
+   <div class="filter-box">
+    <div class="filter-dropdown">
+        <select class="filter-select" name="job-level" id="job-level">
+            <option value="" disabled selected>Job Level</option>
+            <option value="entry">Entry Level</option>
+            <option value="mid-senior">Mid-Level</option>
+            <option value="education">Senior Level / Mid-Senior</option>
+            <option value="director">Director Level</option>
+            <option value="education">Executive Level / C-Level</option>           
+        </select>
+        <select class="filter-select" name="job-function" id="job-function">
+            <option value="" disabled selected>Job Function</option>
+            <option value="it">Information Technology (IT)</option>
+            <option value="management">Management</option>
+            <option value="education">Education</option>
+            <option value="education">Health</option>
+            <option value="education">Marketing</option>
+        </select>
+        <select class="filter-select" name="employment" id="employment">
+            <option value="" disabled selected>Employment Type</option>
+            <option value="internship">Internship</option>
+            <option value="part-time">Part-Time</option>
+            <option value="full-time">Full-Time</option>
+            <option value="education">Freelance</option>
+            <option value="education">Temporary</option>
+        </select>
+        <select class="filter-select" name="location" id="location">
+            <option value="" disabled selected>Location</option>
+            <option value="india">India</option>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="education">Canada</option>
+            <option value="education">Australia</option>
+        </select>
+        <select class="filter-select" name="education" id="education">
+            <option value="" disabled selected>Education Level</option>
+            <option value="high-school">High School</option>
+            <option value="bachelors">Bachelor's Degree</option>
+            <option value="masters">Master's Degree</option>
+            <option value="education">Diploma</option>
+            <option value="education">Doctorate/Ph.D.</option>
+        </select>
+    </div>
+</div>
+<!-- Filter box end-->
+
+
+<div>
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/tesla.svg">
+                <div class="job detail">
+                    <h4>Tesla</h4>
+                    <h3>Mechanical Engineer</h3>
+                    <p>Tesla Mechanical Engineer job in Texas</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/ebay.svg">
+                <div class="job detail">
+                    <h4>Ebay</h4>
+                    <h3>Business Development</h3>
+                    <p>Tesla Mechanical Engineer job in Texas</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/tiktok.svg">
+                <div class="job detail">
+                    <h4>Tiktok</h4>
+                    <h3>Digital Marketing</h3>
+                    <p>Tesla Mechanical Engineer job in Texas</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/youtube.svg">
+                <div class="job detail">
+                    <h4>Youtube</h4>
+                    <h3>UI UX Designer</h3>
+                    <p>Tesla Mechanical Engineer job in Texas</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="https://raw.githubusercontent.com/salonishah13/Jobportal/61da1b3802d4a016eaf2ecd785ec618f2dbba6b2/amazon.svg">
+                <div class="job detail">
+                    <h4>Amazon</h4>
+                    <h3>Software Engineer</h3>
+                    <p>Tesla Mechanical Engineer job in Texas</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+    </section>
+    <button class="job-more">More List</button>
+</div>
+
+
+
+</body>
+</html>
